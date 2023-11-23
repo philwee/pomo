@@ -1,0 +1,42 @@
+@media (min-width: 992px) {
+    #timer {
+        font-size: 8em; /* Very large font size for timer */
+        margin-top: 5%; /* Adjust top margin */
+    }
+    .btn-group button {
+        font-size: 2em; /* Larger buttons */
+        padding: 10px 20px;
+        margin: 0 5px; /* Spacing between buttons */
+    }
+    h4 {
+        font-size: 2.5em; /* Larger text for completed count */
+        margin-top: 2%; /* Adjust top margin */
+    }
+    h1 {
+        font-size: 7em; /* Larger text for title */
+    }
+    h2 {
+        font-size: 3em; /* Larger text for title */
+    }
+}
+@media (min-width: 200px) and (max-width: 991px) {
+    #timer {
+        font-size: 6em;
+        margin-top: 10%;
+    }
+    .btn-group button {
+        font-size: 4em;
+        padding: 10px 20px;
+        margin: 0 6px;
+    }
+    h4 {
+        font-size: 3em;
+        margin-top: 5%;
+    }
+    h1 {
+        font-size: 12em; /* Larger text for title */
+    }
+    h2 {
+        font-size: 3em; /* Larger text for title */
+    }
+}
